@@ -92,7 +92,7 @@ The comparison below illustrates the performance differences across architecture
 
 
 
-![Model comparison on CIFAR-100 superclasses](figures/cifar100_superclass_model_comparison.png)
+![Model comparison on CIFAR-100 superclasses](figures/results_comparison.png)
 
 
 
