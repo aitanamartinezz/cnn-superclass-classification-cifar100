@@ -1,4 +1,4 @@
-\# CNN Superclass Classification on CIFAR-100
+# CNN Superclass Classification on CIFAR-100
 
 
 
@@ -6,7 +6,7 @@ This project addresses an image classification problem using Convolutional Neura
 
 
 
-\## Problem Overview
+## Problem Overview
 
 Image classification is a core task in computer vision. CIFAR-100 consists of 60,000 RGB images of size 32×32 pixels, split into 100 fine classes grouped into 20 superclasses.  
 
@@ -18,47 +18,47 @@ This setup allows the model to learn higher-level visual concepts while avoiding
 
 
 
-\## Dataset
+## Dataset
 
-\- Dataset: CIFAR-100
+- Dataset: CIFAR-100
 
-\- Image size: 32×32 RGB
+- Image size: 32×32 RGB
 
-\- Training samples: 50,000
+- Training samples: 50,000
 
-\- Test samples: 10,000
+- Test samples: 10,000
 
-\- Target labels: 20 superclasses
-
-
-
-\## Methodology
-
-\- Data preprocessing and normalization
-
-\- Mapping fine-grained labels to superclass labels
-
-\- Design of a custom CNN architecture
-
-\- Model training with validation monitoring
-
-\- Evaluation using accuracy and loss metrics
-
-\- Analysis of learning behavior and generalization
+- Target labels: 20 superclasses
 
 
 
-\## Model Architecture
+## Methodology
+
+- Data preprocessing and normalization
+
+- Mapping fine-grained labels to superclass labels
+
+- Design of a custom CNN architecture
+
+- Model training with validation monitoring
+
+- Evaluation using accuracy and loss metrics
+
+- Analysis of learning behavior and generalization
+
+
+
+## Model Architecture
 
 The CNN architecture is composed of:
 
-\- Convolutional layers for feature extraction
+- Convolutional layers for feature extraction
 
-\- Pooling layers for spatial reduction
+- Pooling layers for spatial reduction
 
-\- Fully connected layers for classification
+- Fully connected layers for classification
 
-\- Softmax output layer for multi-class prediction
+- Softmax output layer for multi-class prediction
 
 
 
@@ -68,19 +68,19 @@ The architecture was designed to balance performance and computational efficienc
 
 
 
-\## Results
+## Results
 
 Several CNN-based architectures were evaluated on the CIFAR-100 superclass classification task. The results below report test accuracy for each model.
 
 
 
-\- Best CNN architecture: \*\*66.13%\*\*
+- Best CNN architecture: **66.13%**
 
-\- Residual CNN: \*\*64.85%\*\*
+- Residual CNN: **64.85%**
 
-\- Xception-based model: \*\*54.44%\*\*
+- Xception-based model: **54.44%**
 
-\- Inception-based model: \*\*51.95%\*\*
+- Inception-based model: **51.95%**
 
 
 
@@ -92,7 +92,7 @@ The comparison below illustrates the performance differences across architecture
 
 
 
-!\[Model comparison on CIFAR-100 superclasses](figures/cifar100\_superclass\_model\_comparison.png)
+![Model comparison on CIFAR-100 superclasses](figures/cifar100_superclass_model_comparison.png)
 
 
 
@@ -100,25 +100,21 @@ These results indicate that simpler CNN and residual-based architectures outperf
 
 
 
-\## Technologies Used
+## Technologies Used
 
-\- Python
+- Python
 
-\- TensorFlow / Keras
+- TensorFlow / Keras
 
-\- NumPy
+- NumPy
 
-\- Pandas
+- Pandas
 
-\- Matplotlib
-
-
+- Matplotlib
 
 
 
-
-
-\## Project Structure
+## Project Structure
 
 
 
@@ -126,7 +122,7 @@ cnn-superclass-classification-cifar100/
 
 ├── notebooks/
 
-│ └── cnn\_superclass\_classification\_cifar100.ipynb
+│ └── cnn_superclass_classification_cifar100.ipynb
 
 ├── README.md
 
@@ -138,7 +134,7 @@ cnn-superclass-classification-cifar100/
 
 
 
-\## Author
+## Author
 
 Aitana Martínez
 
